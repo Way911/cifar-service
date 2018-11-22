@@ -1,6 +1,6 @@
 # cifar-service
 To run it:
-```shell
+```bash
 bash run.sh
 ```
 To build image & run container
