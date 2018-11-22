@@ -1,4 +1,5 @@
-FROM python:3.6
+#FROM python:3.6
+FROM registry-vpc.cn-shanghai.aliyuncs.com/wayneqll/cifar-service-parent
 MAINTAINER Wayne Cao <wayne911@live.cn>
 
 COPY . /app/
