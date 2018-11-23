@@ -1,7 +1,7 @@
 #!/bin/sh
 echo ''
 echo '#### #### installing requirements #### ####'
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 echo '#### #### end installing requirements #### ####'
 echo ''
 
