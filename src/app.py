@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return "Hello World!"
 
-@app.route('/classify', methods=['POST'])
+@app.route('/cifar-service/classify', methods=['POST'])
 def cls():
     if request.files.get('file'):
         file = request.files.get('file')
