@@ -7,7 +7,7 @@ URL_PREFIX = '/cifar-service'
 
 @app.route(URL_PREFIX + "/")
 def index():
-    return "Hello World!"
+    return "v1"
 
 
 @app.route(URL_PREFIX + '/classify', methods=['POST'])
