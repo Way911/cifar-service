@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 import logging
 from image_classify.classify_api import classify
 
@@ -7,7 +7,7 @@ URL_PREFIX = '/cifar-service'
 
 @app.route(URL_PREFIX + "/")
 def index():
-    return "v1"
+    return render_template('index.html')
 
 
 @app.route(URL_PREFIX + '/classify', methods=['POST'])
