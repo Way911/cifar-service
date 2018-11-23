@@ -14,7 +14,7 @@ import numpy as np
 class Classsifier(object):
     
     def __init__(self):
-        checkpoint_dir = os.getenv("CHECKPOINT_DIR"),
+        checkpoint_dir = os.getenv("CHECKPOINT_DIR")
         # checkpoint_dir = '/Users/wayne/Downloads/check_point'
         # Real-time data preprocessing
         img_prep = ImagePreprocessing()
