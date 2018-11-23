@@ -1,6 +1,6 @@
 #FROM python:3.6
 FROM registry.cn-shanghai.aliyuncs.com/wayneqll/cifar-service-parent
-MAINTAINER Wayne Cao <wayne911@live.cn>
+LABEL maintainer="wayne911@live.cn"
 
 COPY . /app/
 WORKDIR /app
