@@ -86,7 +86,7 @@ def load_batch(fpath):
 
 
 def main(_):
-    dirname = os.path.join(FLAGS.buckets, "")
+    # dirname = os.path.join(FLAGS.buckets, "")
     # (X, Y), (X_test, Y_test) = load_data(dirname)
     # print("load data done")
 
